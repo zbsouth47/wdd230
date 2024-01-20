@@ -43,6 +43,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-list {
+  flex-direction: row;
+}
+
 main {
   text-align: center;
   max-width: 650px;
