@@ -1,0 +1,26 @@
+@media only screen and (max-width: 70em) and (min-width: 32.5em) {
+    header, main, footer {
+        max-width: 70em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .principles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .parc-alignment {
+        grid-column: 1/3;
+    }
+}
