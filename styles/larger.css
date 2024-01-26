@@ -1,9 +1,15 @@
-@media screen and (min-width: 740px) {
-  nav ul {
+@media only screen and (min-width: 40em) {
+  .navigation {
     display: flex;
   }
-
-  nav ul li {
+  .navigation li {
+    display: block;
     flex: 1 1 100%;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  #menu {
+    display: none;
   }
 }

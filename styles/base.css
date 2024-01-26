@@ -15,6 +15,11 @@
   margin: auto;
 }
 
+h1::before,
+h1::after {
+  content: "🔥";
+}
+
 header {
   font-weight: 700;
   display: flex;
@@ -26,7 +31,7 @@ header {
 
 header img {
   flex: 33%;
-  height: 150px;
+  width: 10px;
   align-items: flex-start;
   align-self: center;
 }
@@ -35,12 +40,61 @@ header h1 {
   flex: 66%;
 }
 
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  background-color: #eee;
+  color: #000;
+}
+
+#menu::before {
+  content: "≡";
+}
+
 nav {
   display: block;
   background-color: var(--secondary);
   color: var(--accent1);
   border: black 2px solid;
   text-decoration: none;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+navigation a:active {
+  color: white;
+  background-color: black;
+}
+
+.show li {
+  display: block;
+}
+
+#menu.show::before {
+  content: "X";
 }
 
 .nav-list {
