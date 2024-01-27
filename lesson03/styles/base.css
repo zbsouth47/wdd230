@@ -4,7 +4,7 @@
   --regular-text: "Roboto Slab", serif;
 
   /* colors */
-  --primary-color: #598392;
+  --primary-color: #44626f;
   --secondary: #011936;
   --accent1: white;
   --accent2: #c05746;
@@ -108,6 +108,7 @@ h3 {
 
 #accent2 {
   background-color: var(--accent2);
+  color: #000000;
 }
 
 img {
