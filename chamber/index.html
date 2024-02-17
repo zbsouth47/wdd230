@@ -25,11 +25,11 @@
       property="og:title"
       content="Zach Southwick - WDD 230 - Kaitaia Chamber of Commerce"
     />
-    <meta property="og:image" content="images/kaitaia.jpg" />
+    <meta property="og:image" content="images/kaitaia.webp" />
   </head>
   <body>
     <header>
-      <img src="images/kaitaia-lighthouse.jpg" alt="Kaitaia Lighthouse" />
+      <img src="images/kaitaia-lighthouse.webp" alt="Kaitaia Lighthouse" />
       <h1>Kaitaia Chamber of Commerce</h1>
       <label class="switch">
         <input id="checkbox" type="checkbox" />
@@ -46,7 +46,34 @@
       </ul>
     </nav>
     <main>
-      <img src="images/kaitaia-beach.jpg" alt="Hero image" id="beach" />
+      <div class="hero">
+        <picture>
+          <source
+            media="(min-width: 500px)"
+            srcset="images/wdd230-small.webp"
+          />
+          <source
+            media="(min-width: 1000px)"
+            srcset="images/wdd230-medium.webp"
+          />
+          <img
+            src="images/wdd230-large.webp"
+            alt="Hero Image"
+            width="1500"
+            height="750"
+          />
+          <div class="herolabel-small">
+            <p>small</p>
+          </div>
+          <div class="herolabel-medium">
+            <p>medium</p>
+          </div>
+          <div class="herolabel-large">
+            <p>large</p>
+          </div>
+        </picture>
+      </div>
+      <!-- <img src="images/kaitaia-beach.webp" alt="Hero image" id="beach" /> -->
       <div class="action-call">
         <h2>Call To Action</h2>
         <p>
@@ -67,11 +94,12 @@
       </div>
       <div class="weather">
         <h2>Weather</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          qui similique voluptate veniam nisi, inventore id iste quia odio saepe
-          adipisci sequi voluptates quos minima facere ea rem molestiae ut?
-        </p>
+        <p>Current Temperature (Fahrenheit):</p>
+        <input type="text" id="temp" />
+        <p>Current Windspeed (Miles per Hour):</p>
+        <input type="text" id="windspeed" />
+        <br />
+        <button type="submit">Calculate Wind Chill</button>
       </div>
       <div class="spotlights">
         <h2>Spotlights</h2>
@@ -90,5 +118,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>

@@ -103,6 +103,37 @@ main {
   max-width: 900px;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.herolabel-small {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: radial-gradient(#fff, var(--primary-color));
+  padding: 1.5rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+}
+
+.herolabel-small p {
+  margin: 0;
+  padding: 0.25rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.herolabel-medium,
+.herolabel-large {
+  display: none;
+}
+
 #beach {
   margin-top: 10px;
   height: 250px;

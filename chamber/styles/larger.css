@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 1001px) {
   .navigation {
     display: flex;
   }
@@ -10,6 +10,29 @@
     text-align: center;
   }
   #menu {
+    display: none;
+  }
+
+  .herolabel-large {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(#fff, var(--primary-color));
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+  }
+
+  .herolabel-large p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+
+  .herolabel-small,
+  .herolabel-medium {
     display: none;
   }
 }
