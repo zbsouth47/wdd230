@@ -35,4 +35,27 @@
   .herolabel-medium {
     display: none;
   }
+
+  main {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 25%;
+    display: grid;
+    height: 50%;
+  }
+
+  .photos {
+    flex: 1;
+    border: none;
+  }
+
+  .photos p:not(:last-child) {
+    padding-bottom: 20px;
+  }
+
+  .photos img:hover {
+    box-shadow: 0 0 50px #333;
+  }
 }

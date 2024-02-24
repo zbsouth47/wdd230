@@ -150,6 +150,11 @@ div {
   margin: 10px;
 }
 
+.photos img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   border: solid black 2px;
   background-color: var(--secondary);
