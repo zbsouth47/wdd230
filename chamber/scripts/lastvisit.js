@@ -15,6 +15,8 @@ if (difference > 2) {
   visitsDisplay.textContent = `You last visited ${difference.toFixed(
     0
   )} day ago.`;
+} else if (difference < 1 && difference > 0) {
+  visitsDisplay.textContent = `Back so soon! Awesome!`;
 } else {
   visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
 }
