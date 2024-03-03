@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the Kaitaia Chamber of Commerce join page being built for WDD230"
+    />
+    <meta name="author" content="Zachary Southwick" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/dark-mode.css" />
+    <title>
+      Zach Southwick - WDD 230 - Kaitaia Chamber of Commerce Join Page
+    </title>
+    <meta
+      property="og:url"
+      content="https://zbsouth47.github.io/wdd230/chamber/join.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zach Southwick - WDD 230 - Kaitaia Chamber of Commerce Join"
+    />
+    <meta property="og:image" content="images/kaitaia.webp" />
+  </head>
+  <body>
+    <header>
+      <img src="images/kaitaia-lighthouse.webp" alt="Kaitaia Lighthouse" />
+      <h1>Kaitaia Chamber of Commerce</h1>
+      <label class="switch">
+        <input id="checkbox" type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="join.html">Join the Chamber</a></li>
+        <li><a href="#">Calendar</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="join">
+        <div class="levels">
+          <h2>Membership Levels</h2>
+          <h3>Non-Profit</h3>
+          <h4>Yearly Cost = none</h4>
+          <p>
+            All local non-profit businesses get the same access as a silver
+            level member without any associated cost. Non-profit documentation
+            must be provided before benefits can begin and must be provided
+            yearly.
+          </p>
+          <h3>Bronze Membership</h3>
+          <h4>Yearly Cost = $250</h4>
+          <ul>
+            <li>Business listed in yearly 'Businesses of Kaitaia' booklet</li>
+            <li>
+              Twice yearly shoutouts through social media (Facebook, Twitter,
+              etc)
+            </li>
+            <li>Monthly networking events for all Chamber members</li>
+          </ul>
+          <h3>Silver Membership</h3>
+          <h4>Yearly Cost = $500</h4>
+          <ul>
+            <li>All Bronze level benefits</li>
+            <li>Quarterly social media shoutouts</li>
+            <li>Twice yearly feature on our website</li>
+            <li>Limited access to Chamber Business Support Services</li>
+            <li>Access to monthly seminars, workshops, and trainings</li>
+          </ul>
+          <h3>Gold Membership</h3>
+          <h4>Yearly Cost = $1000</h4>
+          <ul>
+            <li>All Silver level benefits</li>
+            <li>Monthly social media shoutouts</li>
+            <li>Quarterly feature on our website</li>
+            <li>Full access to Chamber Business Support Services</li>
+            <li>Become part of the Chamber Discounts and Savings Group</li>
+          </ul>
+        </div>
+        <div class="form">
+          <h2>Membership Form</h2>
+          <form action="thankyou.html" method="get">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" required />
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" required />
+            <br />
+            <label for="title">Title or Position:</label>
+            <input
+              type="text"
+              id="title"
+              name="title"
+              pattern="[a-zA-Z \-]{7,}"
+              required
+            />
+            <br />
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="EX yourname@yahoo.com"
+              required
+            />
+            <br />
+            <label for="phone">Mobile Number:</label>
+            <input type="telephone" id="phone" name="phone" required />
+            <br />
+            <label for="orgName">Business/Organization Name:</label>
+            <input type="text" id="orgName" name="orgName" required />
+            <br />
+            <label for="memLevel">Membership Level:</label>
+            <select name="memLevel" id="memLevel">
+              <option></option>
+              <option value="nonProfit">Non-Profit</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+            <br />
+            <label for="orgDesc">Business/Organization Description:</label>
+            <br />
+            <textarea name="orgDesc" id="orgDesc" cols="75" rows="5"></textarea>
+            <br />
+            <input type="hidden" id="hidden" name="hidden" />
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Zachary Southwick | sou18016@byui.edu | WDD230 Course Project</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/hidden-date.js"></script>
+  </body>
+</html>
