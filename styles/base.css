@@ -145,26 +145,3 @@ ul {
   list-style-type: none;
   text-decoration: none;
 }
-
-.form {
-  border: #000 2px solid;
-  padding: 20px;
-  margin: 20px;
-}
-
-.form label,
-input,
-span {
-  float: left;
-}
-
-.form label {
-  clear: left;
-  display: block;
-}
-
-.record-form {
-  border: #000 2px solid;
-  padding: 20px;
-  margin: 20px;
-}
