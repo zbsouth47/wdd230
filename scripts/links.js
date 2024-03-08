@@ -6,7 +6,7 @@ const lessons = document.querySelector(".lessons");
 async function getLinks() {
   const response = await fetch(linksURL);
   const links = await response.json();
-  console.log(links);
+  //   console.log(links);
   displayLinks(links);
 }
 
