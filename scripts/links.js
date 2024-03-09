@@ -18,7 +18,7 @@ function displayLinks(weeks) {
     week.links.forEach((link) => {
       let a = document.createElement("a");
       a.setAttribute("href", link.url);
-      a.textContent = link.title;
+      a.textContent = `${link.title} | `;
       li.appendChild(a);
     });
     lessons.appendChild(li);

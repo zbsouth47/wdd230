@@ -137,11 +137,13 @@ h3 {
   background-color: var(--primary-color);
   color: var(--accent1);
 }
+
 .card {
   border: var(--secondary) 2px solid;
 }
 
-ul {
+.lessons li {
+  text-align: left;
   list-style-type: none;
   text-decoration: none;
 }

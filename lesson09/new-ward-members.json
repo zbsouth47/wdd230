@@ -1,17 +1,19 @@
-[
-  {
-    "name": "Miller",
-    "moveDate": "02/22/2024",
-    "numRecords": 3,
-    "visBishopric": true,
-    "famMembers": [
-      {
-        "name": "Jack",
-        "gender": "male",
-        "birthdate": "08/23/1989"
-      },
-      { "name": "Shannon", "gender": "female", "birthdate": "04/17/1987" },
-      { "name": "Benny", "gender": "male", "birthdate": "10/03/2016" }
-    ]
-  }
-]
+{
+  "newFamilies": [
+    {
+      "name": "Miller",
+      "moveDate": "02/22/2024",
+      "numRecords": 3,
+      "visBishopric": true,
+      "famMembers": [
+        {
+          "name": "Jack",
+          "gender": "male",
+          "birthdate": "08/23/1989"
+        },
+        { "name": "Shannon", "gender": "female", "birthdate": "04/17/1987" },
+        { "name": "Benny", "gender": "male", "birthdate": "10/03/2016" }
+      ]
+    }
+  ]
+}
