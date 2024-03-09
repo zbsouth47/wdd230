@@ -79,7 +79,16 @@
   },
   {
     "lesson": "09",
-    "links": []
+    "links": [
+      {
+        "url": "lesson09/new-ward-members.json",
+        "title": "New Ward Members"
+      },
+      {
+        "url": "lesson09/prophets.html",
+        "title": "Prophets"
+      }
+    ]
   },
   {
     "lesson": "10",
