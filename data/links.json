@@ -76,7 +76,16 @@
     },
     {
       "lesson": "08",
-      "links": []
+      "links": [
+        {
+          "url": "lesson08/tablebuild.html",
+          "title": "Table Building"
+        },
+        {
+          "url": "lesson08/index.html",
+          "title": "Course Join"
+        }
+      ]
     },
     {
       "lesson": "09",
