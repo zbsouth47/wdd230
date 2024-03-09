@@ -7,17 +7,8 @@ async function getLinks() {
   const response = await fetch(linksURL);
   const links = await response.json();
   //   console.log(links);
-  displayLinks(links);
+  displayLinks(links.lessons);
 }
-
-// function displayLinks(weeks) {
-//   lessons.appendChild(document.createElement("ul"));
-//   for (i = 0; i < weeks.length; ++i) {
-//     let li = document.createElement("li");
-//     li.innerText = `Week ${weeks[i].lesson}`;
-//     lessons.appendChild(li);
-//   }
-// }
 
 function displayLinks(weeks) {
   lessons.appendChild(document.createElement("ul"));
