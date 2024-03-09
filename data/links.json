@@ -84,6 +84,10 @@
         {
           "url": "lesson08/index.html",
           "title": "Course Join"
+        },
+        {
+          "url": "lesson08/form.html",
+          "title": "Form"
         }
       ]
     },
