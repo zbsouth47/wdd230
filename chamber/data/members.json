@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Whanau Meats",
+      "address": "137 Commerce St",
+      "phone": "09 601 0154",
+      "website": "https://www.whanaumeats.com/",
+      "image": "https://www.whanaumeats.com/wp-content/uploads/2020/11/logo.png",
+      "memLevel": "Silver",
+      "description": "We are a family owned and family values driven business run by father-daughter duo. We have returned to our ancestral home in Te Hiku, the Far North, to reconnect and to provide the best in service and produce to our local community through Whānau Meats, a butchery and homekill processor. At Whānau Meats we aim to be the best at what we do: provide delicious meat and home kill processing that is cost-effective and a place where you/’ll enjoy being part of a whānau (family) atmosphere."
+    },
+    {
+      "name": "Patterson Law",
+      "address": "131 Commerce St",
+      "phone": "64 9 408 1600",
+      "website": "https://pattersonlaw.co.nz/",
+      "image": "http://pattersonlaw.co.nz/wp-content/uploads/2023/10/PL-logo.png",
+      "memLevel": "Gold",
+      "description": "Patterson Law Ltd is a general practice legal firm based in Kaitaia, Northland, New Zealand."
+    },
+    {
+      "name": "Heffernan Law",
+      "address": "18 Melba St",
+      "phone": "09 408 1050",
+      "website": "https://hefflaw.co.nz/",
+      "image": "https://hefflaw.co.nz/wp-content/uploads/2021/08/heffernan-logo-colour.svg",
+      "memLevel": "Gold",
+      "description": "Heffernan Law Limited is an amalgamation with the long established trusted practice of Russell Manning & Associates (formerly Manning Hounsell Associates & prior to that called Fountain Manning & Co) from 02 August 2021."
+    },
+    {
+      "name": "Dune Rider Tours",
+      "address": "36 Wireless Rd",
+      "phone": "0508 386 374",
+      "website": "https://www.dunerider.nz/",
+      "image": "https://images.squarespace-cdn.com/content/v1/5fab11c62a6d172d8bb9ba0f/1606015992982-EG2ULGTJN7EX9GUWJEV2/SSDune2.png?format=1500w",
+      "memLevel": "Bronze",
+      "description": "Dune Rider Unique Tours is the name of our family-owned and operated tour company with over 20 years of experience. We work together as a team to provide you with the best experiences the Far North has to offer."
+    },
+    {
+      "name": "Harrisons Cape Runner",
+      "address": "123 North Rd",
+      "phone": "09 408 1033",
+      "website": "https://harrisonscapereingatours.co.nz/",
+      "image": "https://www.harrisonscapereingatours.co.nz/wp-content/uploads/2019/01/harrisons-logo.png",
+      "memLevel": "Silver",
+      "description": "Relax and unwind as our local tour guides take you on a journey to share with you some of our amazing Maori legends and Far North history."
+    },
+    {
+      "name": "PKF Far North",
+      "address": "2 Redan Rd",
+      "phone": "64 9 408 9366",
+      "website": "https://www.pkffa.co.nz/",
+      "image": "https://www.pkffa.co.nz/media/tibnuucw/carousel_far_north.png",
+      "memLevel": "Gold",
+      "description": "We have always been recognised for a willingness to get alongside our clients. We like business development and helping out with our clients business management needs."
+    },
+    {
+      "name": "KCL Civil Construction",
+      "address": "300 Pukepoto Rd",
+      "phone": "99 408 0085",
+      "website": "https://www.kcl-civilconstruction.co.nz/",
+      "image": "https://static.wixstatic.com/media/64bd78_bcfa779b52b0448b9c94eb883e50bb97~mv2.png/v1/fill/w_304,h_121,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/kcl%20logo.png",
+      "memLevel": "Bronze",
+      "description": "With over 15 years Civil Construction experience, we understand how challenging this specialist area can be. Centrally located in the Far North, we offer a full range of support from consultation and project management, to the physical completion of the project."
+    }
+  ]
+}

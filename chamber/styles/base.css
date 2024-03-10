@@ -174,3 +174,57 @@ footer {
   background-color: var(--secondary);
   color: var(--accent1);
 }
+
+.directory h1 {
+  border-bottom: 5px black solid;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  text-align: center;
+}
+
+.directory section {
+  border: 2px black solid;
+  margin: 15px;
+  box-shadow: 5px 10px #888888;
+}
+
+.directory img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list h2 {
+  background: none;
+  color: black;
+}
+
+.list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+  box-shadow: none;
+}
+
+.list section > * {
+  margin: 0 1rem;
+}
+
+.list section img {
+  display: none;
+}
+
+.list section:nth-child(even) {
+  background-color: lightblue;
+}
