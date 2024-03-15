@@ -106,7 +106,12 @@
     },
     {
       "lesson": "10",
-      "links": []
+      "links": [
+        {
+          "url": "lesson10/weather.html",
+          "title": "openweather api"
+        }
+      ]
     }
   ]
 }
