@@ -48,6 +48,13 @@
       </ul>
     </nav>
     <main>
+      <div class="banner">
+        <div id="banner-content">
+          Please attend our Chamber of Commerce meet and greet this Wednesday at
+          7PM
+        </div>
+        <a id="hide" href="#">❌</a>
+      </div>
       <div class="hero">
         <picture>
           <source
@@ -96,12 +103,20 @@
       </div>
       <div class="weather">
         <h2>Weather</h2>
-        <p>Current Temperature (Fahrenheit):</p>
-        <input type="text" id="temp" />
-        <p>Current Windspeed (Miles per Hour):</p>
-        <input type="text" id="windspeed" />
-        <br />
-        <button type="submit">Calculate Wind Chill</button>
+        <h3>Current Weather</h3>
+        <figure>
+          <img id="weather-icon" src="" alt="" />
+          <p id="current-temp"></p>
+          <p id="windchill"></p>
+        </figure>
+        <h3>Forecast</h3>
+        <table class="forecast">
+          <tr>
+            <th>Date</th>
+            <th>Temp</th>
+            <th>Description</th>
+          </tr>
+        </table>
       </div>
       <div class="spotlights">
         <h2>Spotlights</h2>
@@ -119,7 +134,8 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/hide-banner.js"></script>
     <script src="scripts/dark-mode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>

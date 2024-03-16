@@ -17,6 +17,33 @@
   margin: auto;
 }
 
+div.banner {
+  position: fixed;
+  top: 0;
+  background-color: var(--primary-color);
+  color: var(--accent1);
+  width: 100%;
+  opacity: 0.8;
+  text-align: center;
+}
+
+div#banner-content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+}
+
+#hide {
+  position: absolute;
+  top: 8px;
+  right: 0px;
+}
+
+.hide {
+  display: none;
+}
+
 header {
   font-weight: 700;
   display: flex;
@@ -227,4 +254,36 @@ footer {
 
 .list section:nth-child(even) {
   background-color: lightblue;
+}
+
+.forecast table {
+  margin: 10px auto;
+  border: thin solid var(--border);
+  box-shadow: 0 0 10px var(--shadow);
+  border-collapse: collapse;
+}
+
+.forecast tr:first-child th,
+.highlight {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+.forecast th,
+td {
+  padding: 7px 15px;
+  border: 1px solid var(--borderlight);
+}
+
+.forecast th {
+  background-color: var(--back2);
+  font-size: larger;
+}
+
+.forecast td {
+  text-align: center;
+}
+
+.forecast tr:nth-child(odd) {
+  background-color: #dcdcdc;
 }
