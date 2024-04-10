@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the reservations page for Scoots being built for WDD230"
+    />
+    <meta name="author" content="Zachary Southwick" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>Zach Southwick - WDD 230 - Scoots Reservations Page</title>
+    <meta
+      property="og:url"
+      content="https://zbsouth47.github.io/wdd230/chamber/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zach Southwick - WDD 230 - Scoots Reservations Page"
+    />
+    <meta property="og:image" content="images/kaitaia.webp" />
+  </head>
+  <body>
+    <header>
+      <img src="images/beach.webp" alt="Cozumel Beach" />
+      <h1>Scoots Rental Services</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="reservations">
+        <div class="res-info">
+          <h2>Rental Services and Agreements</h2>
+          <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>
+              A valid drivers license is required in hand at the time of rental.
+            </li>
+            <li>
+              No one under the age of 12 years of age are allowed to ride on the
+              scooters.
+            </li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>
+              Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+            </li>
+            <li>
+              Payment via Google Pay, Apple Pay, cash, credit card, debit card,
+              or venmo.
+            </li>
+            <li>Rentals may be returned to either physical location.</li>
+          </ul>
+        </div>
+        <div class="form">
+          <h2>Reservation Form</h2>
+          <form action="thankyou.html" method="get">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" required />
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" required />
+            <label for="phone">Mobile Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+            <br />
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="EX yourname@yahoo.com"
+              required
+            />
+            <label for="home">Home State or Country:</label>
+            <input type="text" id="home" name="home" required />
+            <label for="cruiseLine">Cruise Line:</label>
+            <input type="text" id="cruiseLine" name="cruiseLine" />
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" name="people" required />
+            <label for="dates">Date of Reservation:</label>
+            <input type="date" id="dates" name="dates" required />
+            <label for="period">Length of Rental:</label>
+            <select name="period" id="period" required>
+              <option value="default">-----</option>
+              <option value="halfDay">Half Day (3 hours)</option>
+              <option value="fullDay">Full Day</option>
+            </select>
+            <label for="requests">Specials Requests or Comments:</label>
+            <br />
+            <textarea
+              name="requests"
+              id="requests"
+              cols="50"
+              rows="5"
+            ></textarea>
+            <br />
+            <label for="type">Rental Type:</label>
+            <select name="type" id="type" required>
+              <option value="default">-----</option>
+              <option value="metro">Honda Metropolitan Scooter</option>
+              <option value="dio">Honda Dio Scooter</option>
+              <option value="pcx150">Honda PCX150</option>
+              <option value="pioneer">Honda Pioneer 100 ATV</option>
+              <option value="jeep4">Jeep Wrangler 4 door</option>
+              <option value="jeep2">Jeep Wrangler 2 door</option>
+            </select>
+            <br />
+            <button type="submit">Submit Reservation</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Zachary Southwick | WDD230 Final Project</p>
+      <p id="lastModified"></p>
+      <a href="https://www.facebook.com/"
+        ><img src="images/facebook.webp" alt="Facebook"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img src="images/instagram.webp" alt="Instagram"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img src="images/twitter.webp" alt="Twitter"
+      /></a>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>

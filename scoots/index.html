@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the home page for Scoots being built for WDD230"
+    />
+    <meta name="author" content="Zachary Southwick" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>Zach Southwick - WDD 230 - Scoots Home Page</title>
+    <meta
+      property="og:url"
+      content="https://zbsouth47.github.io/wdd230/chamber/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zach Southwick - WDD 230 - Scoots Home Page"
+    />
+    <meta property="og:image" content="images/kaitaia.webp" />
+  </head>
+  <body>
+    <header>
+      <img src="images/beach.webp" alt="Cozumel Beach" />
+      <h1>Scoots Rental Services</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="banner">
+        <div id="banner-content"></div>
+        <a id="hide" href="#">❌</a>
+      </div>
+      <div class="action-call">
+        <h2>Come and Explore with us today!</h2>
+      </div>
+      <div class="hero">
+        <picture>
+          <img src="images/water.webp" alt="Water on the Beach" />
+        </picture>
+      </div>
+      <div class="rentals-home">
+        <h2>Rentals</h2>
+        <p>
+          We have multiple rentals options available. From scooters to jeeps, we
+          have something for everyone. Please click the rentals tab at the top
+          of the page for more information.
+        </p>
+        <div>
+          <h2>Rental Spotlight</h2>
+          <div class="spotlights"></div>
+        </div>
+      </div>
+      <div class="weather">
+        <h2>Weather</h2>
+        <h3>Current Weather</h3>
+        <figure>
+          <img id="weather-icon" src="" alt="" />
+          <p id="current-temp"></p>
+          <p id="humidity"></p>
+          <p id="windchill"></p>
+        </figure>
+        <h3>Forecast</h3>
+        <table class="forecast">
+          <tr>
+            <th>Date</th>
+            <th>Temp</th>
+            <th>Description</th>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>Zachary Southwick | WDD230 Final Project</p>
+      <p id="lastModified"></p>
+      <a href="https://www.facebook.com/"
+        ><img src="images/facebook.webp" alt="Facebook"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img src="images/instagram.webp" alt="Instagram"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img src="images/twitter.webp" alt="Twitter"
+      /></a>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/hide-banner.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlights.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "rentals": [
+    {
+      "type": "Scooter",
+      "make": "Honda",
+      "model": "Metropolitan",
+      "engine": "49cc",
+      "people": 1,
+      "doors": 0,
+      "features": "",
+      "photo": "images/metropolitan.webp",
+      "halfDayRes": "$20",
+      "fullDayRes": "$30",
+      "halfDayWalk": "$25",
+      "fullDayWalk": "$35"
+    },
+    {
+      "type": "Scooter",
+      "make": "Honda",
+      "model": "Dio",
+      "engine": "110cc",
+      "people": 2,
+      "doors": 0,
+      "features": "",
+      "photo": "images/dio.webp",
+      "halfDayRes": "$30",
+      "fullDayRes": "$40",
+      "halfDayWalk": "$35",
+      "fullDayWalk": "$45"
+    },
+    {
+      "type": "Scooter",
+      "make": "Honda",
+      "model": "PCX150",
+      "engine": "149cc",
+      "people": 2,
+      "doors": 0,
+      "features": "",
+      "photo": "images/pcx150.webp",
+      "halfDayRes": "$40",
+      "fullDayRes": "$50",
+      "halfDayWalk": "$45",
+      "fullDayWalk": "$55"
+    },
+    {
+      "type": "ATV",
+      "make": "Honda",
+      "model": "Pioneer 1000",
+      "engine": "",
+      "people": 4,
+      "doors": 0,
+      "features": "",
+      "photo": "images/pioneer.webp",
+      "halfDayRes": "$50",
+      "fullDayRes": "$70",
+      "halfDayWalk": "$60",
+      "fullDayWalk": "$80"
+    },
+    {
+      "type": "Jeep",
+      "make": "Jeep",
+      "model": "Wrangler",
+      "engine": "manuel",
+      "people": 5,
+      "doors": 4,
+      "features": "A/C",
+      "photo": "images/wrangler4.webp",
+      "halfDayRes": "$70",
+      "fullDayRes": "$100",
+      "halfDayWalk": "$85",
+      "fullDayWalk": "$125"
+    },
+    {
+      "type": "Jeep",
+      "make": "Jeep",
+      "model": "Wrangler",
+      "engine": "manuel",
+      "people": 4,
+      "doors": 4,
+      "features": "open air top",
+      "photo": "images/wrangler2.webp",
+      "halfDayRes": "$60",
+      "fullDayRes": "$85",
+      "halfDayWalk": "$70",
+      "fullDayWalk": "$90"
+    }
+  ]
+}

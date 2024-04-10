@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1001px) {
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  #menu {
+    display: none;
+  }
+
+  .herolabel-large {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(#fff, var(--primary-color));
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+  }
+
+  .herolabel-large p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+
+  .herolabel-small,
+  .herolabel-medium {
+    display: none;
+  }
+
+  .discover {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 25%;
+    display: grid;
+    height: 50%;
+  }
+
+  .photos {
+    flex: 1;
+    border: none;
+  }
+
+  .photos p:not(:last-child) {
+    padding-bottom: 20px;
+  }
+
+  .photos img:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  .reservations,
+  .contact-us,
+  .info {
+    display: flex;
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the rentals page for Scoots being built for WDD230"
+    />
+    <meta name="author" content="Zachary Southwick" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>Zach Southwick - WDD 230 - Scoots Rentals Page</title>
+    <meta
+      property="og:url"
+      content="https://zbsouth47.github.io/wdd230/chamber/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zach Southwick - WDD 230 - Scoots Rentals Page"
+    />
+    <meta property="og:image" content="images/kaitaia.webp" />
+  </head>
+  <body>
+    <header>
+      <img src="images/beach.webp" alt="Cozumel Beach" />
+      <h1>Scoots Rental Services</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Rentals</h1>
+      <div>
+        <h2>Vehicles For Rent</h2>
+        <div class="rentals"></div>
+      </div>
+      <div>
+        <h2>Prices</h2>
+        <div class="prices">
+          <table id="prices">
+            <tr>
+              <th rowspan="2">Rental Type</th>
+              <th rowspan="2">Capacity</th>
+              <th colspan="2">Reservation</th>
+              <th colspan="2">Walk-In</th>
+            </tr>
+            <tr>
+              <td>Half Day</td>
+              <td>Full Day</td>
+              <td>Half Day</td>
+              <td>Full Day</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Zachary Southwick | WDD230 Final Project</p>
+      <p id="lastModified"></p>
+      <a href="https://www.facebook.com/"
+        ><img src="images/facebook.webp" alt="Facebook"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img src="images/instagram.webp" alt="Instagram"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img src="images/twitter.webp" alt="Twitter"
+      /></a>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/rentals.js"></script>
+    <script src="scripts/prices.js"></script>
+  </body>
+</html>

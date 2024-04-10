@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the contact us page for Scoots being built for WDD230"
+    />
+    <meta name="author" content="Zachary Southwick" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>Zach Southwick - WDD 230 - Scoots Contact Us Page</title>
+    <meta
+      property="og:url"
+      content="https://zbsouth47.github.io/wdd230/chamber/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zach Southwick - WDD 230 - Scoots Contact Us Page"
+    />
+    <meta property="og:image" content="images/kaitaia.webp" />
+  </head>
+  <body>
+    <header>
+      <img src="images/beach.webp" alt="Cozumel Beach" />
+      <h1>Scoots Rental Services</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="info">
+          <div class="loc1">
+            <h3>Location 1</h3>
+            <p>
+              Av. Rafael E. Melgar 1296, Colonos Cuzamil, 77675 Cozumel, Q.R.,
+              Mexico
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1868.643618890256!2d-86.96500985230328!3d20.494448053647638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57d2fb3a4525%3A0x1e9fdc008c06509e!2sDEPARTAMENTOS%20COZUMEL!5e0!3m2!1sen!2sus!4v1712724133292!5m2!1sen!2sus"
+              width="300"
+              height="225"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>Phone Number: (123) 456-7899</p>
+          </div>
+          <div class="loc2">
+            <h3>Location 2</h3>
+            <p>
+              Av. 20, Andrés Quntana Roo, Gonzalo Guerrero, 77664 Cozumel, Q.R.,
+              Mexico
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.1922691105287!2d-86.95842286256664!3d20.4983429656903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59d996334ecb%3A0x8c048bba04f0bcc8!2s3%20De%20Mayo%20Park!5e0!3m2!1sen!2sus!4v1712724159297!5m2!1sen!2sus"
+              width="300"
+              height="225"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>Phone Number: (987) 654-3211</p>
+          </div>
+        </div>
+        <div class="form">
+          <h2>Contact Us</h2>
+          <form action="thankyou.html" method="get">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" required />
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" required />
+            <br />
+            <br />
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="EX yourname@yahoo.com"
+              required
+            />
+            <br />
+            <label for="requestInfo">Request Info:</label>
+            <br />
+            <textarea
+              name="requestInfo"
+              id="requestInfo"
+              cols="50"
+              rows="5"
+            ></textarea>
+            <br />
+            <button type="submit">Contact Us</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Zachary Southwick | WDD230 Final Project</p>
+      <p id="lastModified"></p>
+      <a href="https://www.facebook.com/"
+        ><img src="images/facebook.webp" alt="Facebook"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img src="images/instagram.webp" alt="Instagram"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img src="images/twitter.webp" alt="Twitter"
+      /></a>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>
